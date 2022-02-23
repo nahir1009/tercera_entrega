@@ -1,0 +1,419 @@
+/* ============ resets y tipografias ==============   */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", "Chakra Petch", "Oswald", sans-serif; }
+
+@font-face {
+  font-family: Tungsten-Bold;
+  src: url("./tipografia/Tungsten-Bold.ttf"); }
+
+/* ==================  MOBILE ==================  */
+/* ======== Estilos Generales ======== */
+/* === pagina index === */
+@media (max-width: 479px) {
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .titulo .h1 {
+      /*box model*/
+      padding: 30px;
+      width: 100%;
+      margin: 5px;
+      /*texto*/
+      font-family: "Chackra Petch";
+      text-align: center;
+      font-size: 25px;
+      text-shadow: #78807d -1px 2px;
+      /*visuales*/
+      color: white;
+      border: solid #b6cfb6 4px;
+      background-color: #8fcaca; }
+    .titulo #carouselExampleControls {
+      width: 95%; }
+      .titulo #carouselExampleControls .carrusel-img {
+        width: 98%;
+        height: 300px; } }
+
+@media (max-width: 479px) {
+  main {
+    background-color: #cce2cb; } }
+
+@media (max-width: 479px) {
+  header {
+    background-color: #d4f0f0; } }
+
+@media (max-width: 479px) {
+  .section__imagenes {
+    height: 200px;
+    width: auto;
+    border: solid grey 1px; } }
+
+@media (max-width: 479px) {
+  .imagenes {
+    /*texto*/
+    font-family: "Oswald";
+    font-size: 10px;
+    text-align: center;
+    margin: 5px;
+    /*visuales*/
+    width: 150px; } }
+
+@media (max-width: 479px) {
+  .texto {
+    font-family: "Oswald";
+    text-align: center; } }
+
+@media (max-width: 479px) {
+  .section-principal {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px; } }
+
+@media (max-width: 479px) {
+  .texto-precio {
+    border: solid grey 1px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; } }
+
+/*=== pagina productos ===*/
+@media (max-width: 479px) {
+  .descuentos__h2 {
+    /*box model*/
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    font-size: 16px;
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: #ff8c94;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; } }
+
+@media (max-width: 479px) {
+  .div__ropa {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px; }
+    .div__ropa .img {
+      width: 150px;
+      height: 200px; } }
+
+/*=== pagina calzados ===*/
+@media (max-width: 479px) {
+  .vestir {
+    /*box model*/
+    width: 280px;
+    padding: 5px;
+    /*texto*/
+    font-size: 22px;
+    text-align: center;
+    color: white;
+    /*visual*/
+    background-color: #cbaacb;
+    border: solid #a30f94 2px;
+    text-shadow: #78807d -1px 2px; } }
+
+@media (max-width: 479px) {
+  .div__calzados {
+    display: flex;
+    flex-flow: row wrap; } }
+
+footer {
+  /*visuales*/
+  background-color: #b6cfb6;
+  border: solid #c4c2bc 6px; }
+  @media (max-width: 479px) {
+    footer .icono-footer {
+      width: 35px; } }
+  @media (min-width: 1024px) {
+    footer .icono-footer {
+      width: 45px; } }
+  @media (max-width: 479px) {
+    footer .footer__p {
+      font-size: 12px; } }
+  @media (min-width: 480px) and (max-width: 1023px) {
+    footer .footer__p {
+      font-size: 14px; } }
+  @media (min-width: 1024px) {
+    footer .footer__p {
+      font-size: 14px; } }
+  @media (max-width: 479px) {
+    footer h4 {
+      font-size: 12px; } }
+  @media (min-width: 480px) and (max-width: 1023px) {
+    footer h4 {
+      font-size: 14px; } }
+  @media (min-width: 1024px) {
+    footer h4 {
+      font-size: 14px; } }
+
+.div_principal {
+  display: flex;
+  justify-content: space-between; }
+  .div_principal .div__ubicacion {
+    width: 400px;
+    display: flex;
+    flex-direction: row; }
+  .div_principal .div__redes {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; }
+  .div_principal .div__contactos {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end; }
+
+/* ==================  TABLETS ==================  */
+@media (min-width: 480px) and (max-width: 1023px) {
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .titulo .h1 {
+      /*box model*/
+      padding: 35px;
+      width: 100%;
+      margin: 5px;
+      /*texto*/
+      font-family: "Chackra Petch";
+      text-align: center;
+      font-size: 40px;
+      text-shadow: #78807d -1px 2px;
+      /*visuales*/
+      color: white;
+      background-color: #8fcaca;
+      border: solid #b6cfb6 4px; }
+    .titulo #carouselExampleControls {
+      width: 97%; }
+      .titulo #carouselExampleControls .carrusel-img {
+        width: 99%;
+        height: 350px; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .section__imagenes {
+    height: 300px;
+    width: auto;
+    border: solid grey 1px; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  header {
+    background-color: #d4f0f0; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .section-principal {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .texto-precio {
+    border: solid grey 1px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  main {
+    background-color: #cce2cb; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .imagenes {
+    /*texto*/
+    font-family: "Oswald";
+    font-size: 10px;
+    text-align: center;
+    margin: 5px;
+    /*visuales*/
+    width: 220px; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .texto {
+    font-family: "Oswald";
+    text-align: center; } }
+
+/*==== pagina productos====*/
+@media (min-width: 480px) and (max-width: 1023px) {
+  .descuentos__h2 {
+    /*box model*/
+    height: 60px;
+    width: 98%;
+    padding: 10px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    font-size: 24px;
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: #ff8c94;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .div__ropa {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 10px; }
+    .div__ropa .img {
+      width: 200px;
+      height: 240px; } }
+
+/*====calzados ===*/
+@media (min-width: 480px) and (max-width: 1023px) {
+  .vestir {
+    display: flex;
+    flex-flow: row wrap;
+    /*box model*/
+    width: 60%;
+    height: 80px;
+    padding: 10px;
+    /*texto*/
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    /*visual*/
+    background-color: #cbaacb;
+    border: solid #a30f94 2px;
+    text-shadow: #78807d -1px 2px; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .div__calzados {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; } }
+
+/* ==================  DESKTOP==================  */
+@media (min-width: 1024px) {
+  .titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .titulo h1 {
+      /*box model*/
+      padding: 40px;
+      width: 1250px;
+      margin: 5px;
+      /*texto*/
+      font-family: "Chackra Petch";
+      text-align: center;
+      font-size: 45px;
+      text-shadow: #78807d -1px 2px;
+      /*visuales*/
+      color: white;
+      background-color: #8fcaca;
+      border: solid #b6cfb6 4px; }
+    .titulo #carouselExampleControls {
+      width: 97%; }
+      .titulo #carouselExampleControls .carrusel-img {
+        width: 99%;
+        height: 350px; } }
+
+@media (min-width: 1024px) {
+  .section__imagenes {
+    height: 400px;
+    width: auto;
+    border: solid grey 1px; } }
+
+@media (min-width: 1024px) {
+  header {
+    background-color: #d4f0f0; } }
+
+@media (min-width: 1024px) {
+  .section-principal {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px; } }
+
+@media (min-width: 1024px) {
+  .texto-precio {
+    border: solid grey 1px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; } }
+
+@media (min-width: 1024px) {
+  main {
+    background-color: #cce2cb; } }
+
+@media (min-width: 1024px) {
+  .imagenes {
+    /*texto*/
+    font-family: "Oswald";
+    font-size: 15px;
+    text-align: center;
+    margin: 5px;
+    /*visuales*/
+    width: 275px; } }
+
+@media (min-width: 1024px) {
+  .texto {
+    font-family: "Oswald";
+    text-align: center; } }
+
+/*==== pagina productos====*/
+@media (min-width: 1024px) {
+  .div__descuentos {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+    .div__descuentos .descuentos__h2 {
+      /*box model*/
+      height: 75px;
+      width: 70%;
+      padding: 10px;
+      margin: 5px;
+      /*texto*/
+      font-family: "Open Sans";
+      text-align: center;
+      text-shadow: -1px 2px #b6cfb6;
+      /*visual*/
+      color: white;
+      background-color: #ff8c94;
+      border: dashed #ef70aa 3px;
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; } }
+
+@media (min-width: 1024px) {
+  .div__ropa {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 10px; }
+    .div__ropa .img {
+      width: 275px;
+      height: 400px; } }
+
+/*==== pagina calzados====*/
+@media (min-width: 1024px) {
+  .div__calzados {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; } }
+
+@media (min-width: 1024px) {
+  .vestir {
+    display: flex;
+    flex-flow: row wrap;
+    /*box model*/
+    width: 40%;
+    height: 80px;
+    padding: 10px;
+    /*texto*/
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    /*visual*/
+    background-color: #cbaacb;
+    border: solid #a30f94 2px;
+    text-shadow: #78807d -1px 2px; } }

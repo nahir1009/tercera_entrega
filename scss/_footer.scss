@@ -1,0 +1,61 @@
+footer {
+  /*visuales*/
+  background-color: map-get($map: $colores, $key: gris_h1);
+  border: solid map-get($map: $colores, $key: gris_footer) 6px;
+  .icono-footer {
+    @media (max-width: 479px) {
+      width: 35px;
+    }
+    @media (min-width: 1024px) {
+      width: 45px;
+    }
+  }
+  .footer__p {
+    @media (max-width: 479px) {
+      font-size: 12px;
+    }
+    @media (min-width: 480px) and (max-width: 1023px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 14px;
+    }
+  }
+  h4 {
+    @media (max-width: 479px) {
+      font-size: 12px;
+    }
+    @media (min-width: 480px) and (max-width: 1023px) {
+      font-size: 14px;
+    }
+    @media (min-width: 1024px) {
+      font-size: 14px;
+    }
+  }
+}
+
+.div_principal {
+  display: flex;
+  justify-content: space-between;
+  .div__ubicacion {
+    width: 400px;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .div__redes {
+    width: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .div__contactos {
+    width: 400px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}

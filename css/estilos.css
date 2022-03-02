@@ -48,7 +48,7 @@
 @media (max-width: 479px) {
   .section__imagenes {
     height: 200px;
-    width: auto;
+    width: 150px;
     border: solid grey 1px; } }
 
 @media (max-width: 479px) {
@@ -125,6 +125,54 @@
   .div__calzados {
     display: flex;
     flex-flow: row wrap; } }
+
+/*====pagina hombre=====*/
+@media (max-width: 479px) {
+  .titulo-hombre {
+    /*box model*/
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    font-size: 16px;
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: purple;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; } }
+
+@media (max-width: 479px) {
+  .div-hombre {
+    display: flex;
+    flex-flow: row wrap; } }
+
+@media (max-width: 479px) {
+  .titulo-mujer {
+    /*box model*/
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    font-size: 2px;
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: purple;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; } }
+
+@media (max-width: 479px) {
+  .div {
+    display: flex;
+    flex-flow: row wrap;
+    border: black 2px; } }
 
 footer {
   /*visuales*/
@@ -204,7 +252,7 @@ footer {
 @media (min-width: 480px) and (max-width: 1023px) {
   .section__imagenes {
     height: 300px;
-    width: auto;
+    width: 220px;
     border: solid grey 1px; } }
 
 @media (min-width: 480px) and (max-width: 1023px) {
@@ -295,6 +343,56 @@ footer {
     flex-flow: row wrap;
     justify-content: center; } }
 
+@media (min-width: 480px) and (max-width: 1023px) {
+  .titulo-hombre {
+    /*box model*/
+    height: 60px;
+    width: 98%;
+    padding: 10px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    font-size: 24px;
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: purple;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .div-hombre {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    justify-content: center; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .titulo-mujer {
+    /*box model*/
+    height: 60px;
+    width: 98%;
+    padding: 10px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    font-size: 24px;
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: purple;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; } }
+
+@media (min-width: 480px) and (max-width: 1023px) {
+  .div {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    justify-content: center; } }
+
 /* ==================  DESKTOP==================  */
 @media (min-width: 1024px) {
   .titulo {
@@ -316,15 +414,13 @@ footer {
       background-color: #8fcaca;
       border: solid #b6cfb6 4px; }
     .titulo #carouselExampleControls {
-      width: 97%; }
-      .titulo #carouselExampleControls .carrusel-img {
-        width: 99%;
-        height: 350px; } }
+      width: 1000px;
+      height: auto; } }
 
 @media (min-width: 1024px) {
   .section__imagenes {
     height: 400px;
-    width: auto;
+    width: 275px;
     border: solid grey 1px; } }
 
 @media (min-width: 1024px) {
@@ -335,7 +431,8 @@ footer {
   .section-principal {
     display: flex;
     flex-flow: row wrap;
-    margin: 10px; } }
+    margin: 10px;
+    justify-content: center; } }
 
 @media (min-width: 1024px) {
   .texto-precio {
@@ -417,3 +514,64 @@ footer {
     background-color: #cbaacb;
     border: solid #a30f94 2px;
     text-shadow: #78807d -1px 2px; } }
+
+/*=====pagina hombre=====*/
+@media (min-width: 1024px) {
+  .section__hombre {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; } }
+
+@media (min-width: 1024px) {
+  .titulo-hombre {
+    /*box model*/
+    height: 75px;
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: purple;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; } }
+
+@media (min-width: 1024px) {
+  .div-hombre {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    justify-content: center; } }
+
+@media (min-width: 1024px) {
+  .section__mujer {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center; } }
+
+@media (min-width: 1024px) {
+  .titulo-mujer {
+    /*box model*/
+    height: 75px;
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: purple;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; } }
+
+@media (min-width: 1024px) {
+  .div {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 10px;
+    justify-content: center; } }

@@ -32,7 +32,7 @@
 .section__imagenes {
   @media (min-width: 480px) and (max-width: 1023px) {
     height: 300px;
-    width: auto;
+    width: 220px;
     @include border();
   }
 }
@@ -139,6 +139,63 @@ main {
     justify-content: center;
   }
 }
+
+.titulo-hombre {
+  @media (min-width: 480px) and (max-width: 1023px) {
+    /*box model*/
+    height: 60px;
+    width: 98%;
+    padding: 10px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    font-size: 24px;
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: purple;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}
+.div-hombre {
+  @media (min-width: 480px) and (max-width: 1023px) {
+    @include float();
+    margin: 10px;
+    justify-content: center;
+  }
+}
+.titulo-mujer {
+  @media (min-width: 480px) and (max-width: 1023px) {
+    /*box model*/
+    height: 60px;
+    width: 98%;
+    padding: 10px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    font-size: 24px;
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: purple;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}
+.div {
+  @media (min-width: 480px) and (max-width: 1023px) {
+    @include float();
+    margin: 10px;
+    justify-content: center;
+  }
+}
 /* ==================  DESKTOP==================  */
 .titulo {
   @media (min-width: 1024px) {
@@ -161,11 +218,8 @@ main {
       border: solid #b6cfb6 4px;
     }
     #carouselExampleControls {
-      width: 97%;
-      .carrusel-img {
-        width: 99%;
-        height: 350px;
-      }
+      width: 1000px;
+      height: auto;
     }
   }
 }
@@ -173,7 +227,7 @@ main {
 .section__imagenes {
   @media (min-width: 1024px) {
     height: 400px;
-    width: auto;
+    width: 275px;
     @include border();
   }
 }
@@ -188,6 +242,7 @@ header {
   @media (min-width: 1024px) {
     @include float();
     margin: 10px;
+    justify-content: center;
   }
 }
 .texto-precio {
@@ -291,5 +346,69 @@ main {
 .section__hombre {
   @media (min-width: 1024px) {
     @include float();
+    justify-content: center;
+  }
+}
+.titulo-hombre {
+  @media (min-width: 1024px) {
+    /*box model*/
+    height: 75px;
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: purple;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}
+
+.div-hombre {
+  @media (min-width: 1024px) {
+    @include float();
+    margin: 10px;
+    justify-content: center;
+  }
+}
+
+.section__mujer {
+  @media (min-width: 1024px) {
+    @include float();
+    justify-content: center;
+  }
+}
+.titulo-mujer {
+  @media (min-width: 1024px) {
+    /*box model*/
+    height: 75px;
+    width: 70%;
+    padding: 10px;
+    margin: 5px;
+    /*texto*/
+    font-family: "Open Sans";
+    text-align: center;
+    text-shadow: -1px 2px #b6cfb6;
+    /*visual*/
+    color: white;
+    background-color: purple;
+    border: dashed #ef70aa 3px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+      rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+      rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}
+
+.div {
+  @media (min-width: 1024px) {
+    @include float();
+    margin: 10px;
+    justify-content: center;
   }
 }
